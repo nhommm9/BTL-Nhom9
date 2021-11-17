@@ -1,0 +1,268 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ body{
+     width: 100%;
+     margin: 0px auto;
+     background-color: #f5f5f5;
+     font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+ }
+
+ #header {
+     width: 100%;
+     height: 150px;
+ }
+
+#header .header-top {
+     width: 100%;
+     height: 30px;
+     margin: 0px auto;
+     background: #ee4d2d;
+     align-items: center;
+ }
+
+#header .header-top .header-container {
+    background: #ee4d2d;
+    width: 1200px;
+    height: 30px;
+    margin: 0px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu-left {
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+}
+
+.knb {
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 22px;
+    border-right: 1px solid #ccc;
+}
+.tud {
+    padding-left: 5px;
+    padding-right: 10px;
+    line-height: 22px;
+    border-right: 1px solid #ccc;
+}
+.kn {
+    padding-left: 5px;
+    padding-right: 10px;
+    line-height: 23px;
+    display: flex;
+}
+.kn a{
+    text-decoration: none;
+}
+.fb img{
+    width: 20px;
+    height: 20px;
+}
+.insta img{
+    width: 20px;
+    height: 20px;
+}
+
+.header-menu-right {
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+}
+.tb {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.ht {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.tk {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#header .header-banner {
+    width: 100%;
+    height: 110px;
+    background: #fff;
+}
+.header-banner .header-banner-container {
+    padding-top: 20px;
+    background: #fff;
+    width: 1200px;
+    height: 90px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-banner .header-banner-container .header-banner-left  {
+    display: flex;
+}
+.header-logo img{
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.header-title {
+    margin-top: 10px;
+}
+.header-title a{
+    height: 70px;
+    font-weight: lighter;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(238, 75, 43);
+    padding-right: 10px;
+}
+.header-controller {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.header-controller a{
+    height: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(238, 75, 43);
+    padding-right: 10px;
+}
+.a-stick {
+    margin-top: 10px;
+    width: 1px;
+    height: 40px;
+    background: rgb(238, 75, 43);
+}
+.header-search {
+    width: 500px;
+    margin-top: 10px;
+}
+.header-search form {
+    width: 460px;
+    height: 30px;
+    display: flex;
+    margin-left: 40px;
+}
+.header-search form input[type = "text"] {
+    border: 2px solid rgb(238, 75, 43);
+    height: 30px;
+    width: 400px;
+    text-indent: 10px;
+}
+
+.header-search form button[type = "submit"] {
+    height: 34px;
+    border: none;
+    width: 55px;
+    background: rgb(238, 75, 43);
+    cursor: pointer;
+}
+
+#mid {
+    padding-top: 20px;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.mid-one .mid-cart .code-free{
+    border: 1px solid #f3db97;
+    background: #fff;
+    height: 30px;
+}
+.mid-one .mid-cart .code-free .container{
+    display: flex;
+}
+.mid-one .mid-cart .code-free .container .free-shopping-truck img{
+    padding-left: 20px;
+}
+.mid-one .mid-cart .code-free .container .code-free-content {
+    line-height: 30px;
+    text-indent: 10px;
+}
+
+.mid-title {
+    margin-top: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.mid-title1 {
+    padding-right: 100px;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(108 108 108);
+    display: flex;
+    justify-content: space-between;
+}
+.square {
+    padding-left: 50px;
+}
+.square input[type="checkbox"] {
+    background-color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+}
+.square input[type="checkbox"] + label{
+    padding-left: 20px;
+    line-height: 50px;
+    color: rgb(108 108 108);
+}
+.mid-sp {
+    margin-top: 20px;
+    background: #fff;
+    height: 1000px;
+}
+.square1 {
+    padding-left: 50px;
+    border-bottom: 1px solid #ccc;
+    line-height: 50px;
+}
+.square1 input[type="checkbox"] {
+    background-color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+}
+.square1 input[type="checkbox"] + label{
+    padding-left: 20px;
+    line-height: 50px;
+    color: rgb(108 108 108);
+    border: 0px;
+}
+.mid-sanpham-detail {
+    margin-top: 1px;
+    height: 100px;
+    background: #fff;
+    display: flex;
+}
+.square2 {
+    padding-top: 10px;
+    width: 550px;
+    height: 100px;
+    padding-left: 50px;
+    display: flex;
+}
+.square2 input[type="checkbox"] {
+    background-color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+    margin-top: 40px;
+}
+.square2 label {
+    width: 470px;
+}
+.square2 label a {
+    white-space: pre-wrap;
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mid-sp-detail {
+    padding-right: 100px;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
